@@ -1,0 +1,3 @@
+# Evaluation of different classification algorithms using scikitlearn
+
+In this simple evaluation, labelled input data "data.csv" is given with column 14 as the target label. Additional data set "futures.csv" is needed to have the labels predicted (unlabelled data). A classification model is trained using "data.csv" and then labels for "futures.csv" are predicted using the same model. A set of classification algorithms are evaluated and the one with highest accuracy is used to predict the labels for "futures.csv". A detailed report showing all steps is available. A jupyter notebook shows the code used. 
